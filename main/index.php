@@ -1,10 +1,3 @@
-<?php 
-    require "../includes/login_check.php";
-    if($login !== "true") {
-        header("Location: ../index.php");
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
